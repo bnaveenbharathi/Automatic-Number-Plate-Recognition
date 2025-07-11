@@ -1,0 +1,5 @@
+auto
+bike
+car
+lorry
+plate
