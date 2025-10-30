@@ -40,34 +40,19 @@ You can use the ANPR pipeline on images or video files.
 ### Run on an Image
 
 ```sh
-python main.py --image path/to/image.jpg
+python app.py --image path/to/image.jpg
 ```
 
 ### Run on a Video
 
 ```sh
-python main.py --video path/to/video.mp4
+python app.py --video path/to/video.mp4
 ```
 
 ### Example Output
 
 The program will output the detected number plate and recognized text in the terminal and optionally display or save the results.
 
-## Project Structure
-
-```
-Automatic-Number-Plate-Recognition/
-├── data/                # Sample images and videos
-├── models/              # Pretrained models and weights
-├── src/                 # Source code for detection, segmentation, recognition
-│   ├── detector.py      # License plate detection logic
-│   ├── segmenter.py     # Character segmentation logic
-│   ├── recognizer.py    # Character recognition logic
-│   └── utils.py         # Utility functions
-├── main.py              # Main execution script
-├── requirements.txt     # Python dependencies
-└── README.md            # Project documentation
-```
 
 ## How It Works
 
